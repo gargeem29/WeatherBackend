@@ -1,0 +1,4 @@
+com\weather\App.class
+com\weather\DatabaseHandler.class
+com\weather\WeatherFetcher.class
+com\weather\WeatherScheduler.class

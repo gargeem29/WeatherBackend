@@ -1,0 +1,9 @@
+{
+  "java.home": "C:\\Program Files\\Java\\jdk-21", // Correct JDK home path
+  "java.configuration.runtimes": [
+      {
+          "name": "JavaSE-21", // Change to match your JDK version
+          "path": "C:\\Program Files\\Java\\jdk-21" // Correct path
+      }
+  ]
+}
