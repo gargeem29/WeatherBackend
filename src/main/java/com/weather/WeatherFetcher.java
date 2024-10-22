@@ -6,9 +6,13 @@ import java.net.http.HttpClient;
  import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+
+@SpringBootApplication
 public class WeatherFetcher {
     private static final String API_KEY = "14f822bfb6925ccb893161e06145ac98";
     private static final String CITY = "Delhi";
