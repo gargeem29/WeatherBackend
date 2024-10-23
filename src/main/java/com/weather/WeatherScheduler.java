@@ -6,10 +6,13 @@ public class WeatherScheduler {
         // Initialize database handler
         DatabaseHandler dbHandler = new DatabaseHandler();
 
-        // Example of inserting weather data
-        dbHandler.insertWeatherData("Delhi", 30.5, "Clear", System.currentTimeMillis());
+        // Create WeatherData object
+        WeatherData weatherData = new WeatherData("Delhi", 30.5, "Clear", System.currentTimeMillis());
 
-        // Fetch daily summaries
+        // Insert weather data using the WeatherData object
+        dbHandler.insertWeatherData(weatherData);
+
+        // Fetch daily summaries and display
         dbHandler.getDailySummary();
 
         // Close the database connection
